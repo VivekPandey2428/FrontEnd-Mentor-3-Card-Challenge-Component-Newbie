@@ -126,3 +126,37 @@ button:hover{
     font-size:15px;
     transition: 1s linear;
 }
+@media only screen and (max-width: 600px) {
+    .parent{
+        flex-direction: column;
+    }
+    .sedans{
+        border-radius:0px;
+        left:0;
+        top:0;
+        width:100%;
+        height: auto;
+    }
+    .sedans button{
+        margin-bottom:20px;
+    }
+    .suvs{
+        left:0;
+        top:0;
+        width:100%;
+        height: auto;
+    }
+    .suvs button{
+        margin-bottom:20px;
+    }
+    .luxury{
+        border-radius:0px;
+        left:0;
+        top:0;
+        width:100%;
+        height: auto;
+    }
+    .luxury button{
+        margin-bottom:20px;
+    }
+}
