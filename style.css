@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    font-family: "Big Shoulders Display";
+    font-size: 36px;
+    color:hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+p{
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+}
+.parent{
+    height:718px;
+    width:100%;
+    background:hsl(0, 0%, 95%);
+    display: flex;
+}
+.sedans{
+    border-radius:10px 0 0 10px;
+    height:500px;
+    width:300px;
+    background:hsl(31, 77%, 52%);
+    position:relative;
+    left:300px;
+    top:125px;    
+}
+.sedans img{
+    padding-left:40px;
+    padding-top:40px;
+}
+.sedans h1{
+    padding-left:40px;
+    padding-top:20px;
+}
+.sedans p{
+    width:70%;
+    line-height: 40px;
+    padding-left:40px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.sedans button{
+    border-radius:20px;
+    margin-left:40px;
+    margin-top:20px;
+    padding:12px;
+    border:none;
+    width:140px;
+    color:hsl(31, 77%, 52%);
+}
+.suvs{
+    /* border-radius:10px 0 0 10px; */
+    height:500px;
+    width:300px;
+    background:hsl(184, 100%, 22%);
+    position:relative;
+    left:300px;
+    top:125px;  
+}
+.suvs img{
+    padding-left:40px;
+    padding-top:40px;
+}
+.suvs h1{
+    padding-left:40px;
+    padding-top:20px;
+}
+.suvs p{
+    width:70%;
+    line-height: 40px;
+    padding-left:40px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.suvs button{
+    border-radius:20px;
+    margin-left:40px;
+    margin-top:20px;
+    padding:12px;
+    border:none;
+    width:140px;
+    color:hsl(184, 100%, 22%);
+}
+.luxury{
+    border-radius:0 10px 10px 0;
+    height:500px;
+    width:300px;
+    background:hsl(179, 100%, 13%);
+    position:relative;
+    left:300px;
+    top:125px;  
+}
+.luxury img{
+    padding-left:40px;
+    padding-top:40px;
+}
+.luxury h1{
+    padding-left:40px;
+    padding-top:20px;
+}
+.luxury p{
+    width:70%;
+    line-height: 40px;
+    padding-left:40px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.luxury button{
+    border-radius:20px;
+    margin-left:40px;
+    margin-top:20px;
+    padding:12px;
+    border:none;
+    width:140px;
+    color:hsl(179, 100%, 13%);
+}
+button:hover{
+    cursor: pointer;
+    font-size:15px;
+    transition: 1s linear;
+}
